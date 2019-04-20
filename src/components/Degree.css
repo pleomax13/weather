@@ -1,0 +1,31 @@
+.Degree {
+    font-size: 102px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+.Degree .city {
+    font-size: 13px;
+}
+
+.Degree .deg-symbol {
+    font-size: 60px;
+    position: relative;
+    top: -40px;
+}
+
+@media (max-width: 500px) {
+    .Degree {
+        font-size: 50px;
+        text-align: left;
+        margin: auto;
+    }
+
+    .Degree .deg-symbol {
+        font-size: 40px;
+        position: relative;
+        top: -20px;
+    }
+}

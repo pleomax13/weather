@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(185, 185, 185);
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  height: 420px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1.5fr 1fr;
+  position: relative;
+  background-size: contain;
+}
+
+.App .box-main {
+  display: grid;
+  grid-column: 1/2;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: all 350ms ease-in-out;
+}
